@@ -1,0 +1,25 @@
+.flex {
+    background-color: yellow;
+    height: 300px;
+     display: flex;   /*flexbox organiza el contenido para que sea responsive */
+    justify-content: center;
+    /* overflow: scroll;   overflow lo que hace es ordenar si el texto se sale de el contenedor */
+}
+.contenido-1{
+    background-color: white;
+    height: 200px;
+    width: 100px;
+    border: 1px solid blue;
+}
+.contenido-2{
+    background-color: white;
+    height: 200px;
+    width: 100px;
+    border: 1px solid blue;
+}
+.contenido-3{
+    background-color: white;
+    height: 200px;
+    width: 100px;
+    border: 1px solid blue;
+}
