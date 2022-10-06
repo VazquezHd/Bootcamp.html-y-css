@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&family=Montserrat:wght@300&display=swap');
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#elemento-1 {
+
+    color: red;
+    font-size: 2rem;
+}
