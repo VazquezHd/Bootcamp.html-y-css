@@ -1,0 +1,142 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+   
+}
+
+.btn-tooltip{
+    position: relative;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: green;
+    color: white;
+    border-bottom: 2px solid darkgreen;
+    cursor: pointer;
+    transition: background-color 150ms;
+
+}
+/* .btn-tooltip:hover::before{
+    content: "Esto es un tooltip";
+} */
+
+.tooltip{
+    position: absolute;
+    /* visibility: hidden; */
+    opacity: 0;
+    top: -60px;
+    left: -100%;
+    transform: translateX(25%);
+    color: #ddd;
+    background-color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: opacity 150ms;
+}
+.btn-tooltip:hover{
+    background-color: rgb(1, 95, 1);
+}
+
+.btn-tooltip:hover .tooltip{
+    /* visibility: visible; */
+    opacity: 1;
+}
+
+.tooltip::before{
+    content: '';
+    border: solid 10px transparent;
+    border-top-color: #333;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.padre{
+    width: 400px;
+    height: 400px;
+    background-color: blueviolet;
+}
+
+.hijo{
+    width: 50%;
+    height: 50%;
+    background-color: beige;
+     transition: all 1s ease-in-out ; 
+    
+    
+}
+
+.padre:hover .hijo{
+    
+    animation-play-state: paused;
+    transform: translateX(100%);
+    background-color: brown; 
+}
+
+@keyframes traslacion {
+    0%{
+        background-color: cyan;
+        transform: translateX(0%)
+    }
+    20%{
+        background-color: mediumvioletred;
+        transform: translateX(0%)  translateY(100%)
+    }
+    40%{
+        background-color: midnightblue;
+        transform: translateX(0%)  translateY(100%)
+    }
+    60%{
+        background-color: firebrick;
+        transform: translateX(100%) 
+    }
+    80%{
+        background-color: darkgreen;
+        transform: translateX(100%) translateY(100%)
+    }
+    100%{
+        background-color: cyan;
+        transform: translateX(0%)
+    }
+
+}*/
+
